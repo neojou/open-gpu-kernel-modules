@@ -465,8 +465,6 @@ typedef struct nv_state_t
     /* Bool to check if dma-buf is supported */
     NvBool dma_buf_supported;
 
-    NvBool printed_openrm_enable_unsupported_gpus_error;
-
     /* Check if NVPCF DSM function is implemented under NVPCF or GPU device scope */
     NvBool nvpcf_dsm_in_gpu_scope;
 

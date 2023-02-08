@@ -5092,7 +5092,7 @@ NvBool nvKmsModuleLoad(void)
 {
     NvU32 ret = NVOS_STATUS_ERROR_GENERIC;
 
-    nvEvoLog(EVO_LOG_INFO, "Loading %s", pNV_KMS_ID);
+    nvEvoLog(EVO_LOG_INFO, "Neo Loading %s", pNV_KMS_ID);
 
     ret = nvRmApiAlloc(NV01_NULL_OBJECT,
                        NV01_NULL_OBJECT,
